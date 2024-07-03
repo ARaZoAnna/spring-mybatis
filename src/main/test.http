@@ -1,0 +1,5 @@
+### POST 요청 insert 기능 실행
+POST http://localhost:8080/saveStudents
+Content-Type: application/json
+
+{"name": "이름", "age": 20, "address": "서울시"}
